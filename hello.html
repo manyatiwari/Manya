@@ -51,12 +51,30 @@
 
 
         <h2>Form</h2>
-        <div>
+
         <form>
-          <input type="text" name="Name" placeholder="FULL name">
-          <button>Submit!</button>
+          <div>
+          <input type="text" name="Name" placeholder="username">
+          <input type="password" name="password" placeholder="Password">
+        </div>
+
+        <div>
+          <h3>Favorite Color ?</h3>
+          <input name="color" type="radio" value="red">Red
+          <input type="radio" name="colour" value="green">Green
+          <input type="radio" name="color" value="blue">Blue
+          <input type="radio" name="color" value="other">Other
+        </div>
+
+        <div>
+          <input name="Country" list="countries" placeholder="Country">
+          <datalist id="countries">
+            <option value="Afganistan">
+              <option value="India">
+                <option value="America">
+        </div>
         </form>
-</div>
+
 <div id="bottom">
   Thanks for visiting, here you are at the <span class="name">bottom</span> of my Webpage.
 </div>
