@@ -8,6 +8,10 @@ p{
   font-style: oblique;
   font-size: 30px;
 }
+p::selection{
+  background-color: #91dba5;
+  color: orange;
+}
 div {
   color: #91dba5;
   background-color: teal;
@@ -72,6 +76,20 @@ ul{
   color:hotpink;
   font-size: 20px;
 }
-input{
+input[type="text"]{
+  background-color:orange;
+}
+button{
+  width: 70px;
+  height: 30px;
   background-color: #e3c08d;
+}
+button:hover{
+  background-color: orange;
+}
+h1::before {
+  content:"\1F338 ";
+}
+h1 ::after{
+  content: "\1F338";
 }
