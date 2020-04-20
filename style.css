@@ -62,8 +62,13 @@ th{
 img{
   margin-left: 300px;
    }
-ol,li{
+ol>li{
   margin-left: 50px;
   color:#e3c08d;
+  font-size: 20px;
+}
+ul{
+  margin-left : 50px;
+  color:hotpink;
   font-size: 20px;
 }
