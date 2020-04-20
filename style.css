@@ -62,8 +62,8 @@ th{
 img{
   margin-left: 300px;
    }
-ul,ol{
+ol,li{
   margin-left: 50px;
-  color: hotpink;
+  color:#e3c08d;
   font-size: 20px;
 }
