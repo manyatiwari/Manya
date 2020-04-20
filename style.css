@@ -90,6 +90,9 @@ button:hover{
 h1::before {
   content:"\1F338 ";
 }
-h1 ::after{
+h2::after {
   content: "\1F338";
+}
+a:hover{
+color:#e3c08d;
 }
