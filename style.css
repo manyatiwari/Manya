@@ -1,5 +1,5 @@
 h1,h2,h3,h4,h5,h6 {
-  color:#91dba5;
+  color:#449e9d;
   text-align:Center;
 }
 p{
@@ -121,4 +121,7 @@ body{
 }
 form{
   align-items: center;
+}
+ul>li::before{
+  content: "\1F607";
 }
