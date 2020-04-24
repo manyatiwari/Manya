@@ -96,3 +96,8 @@ h2::after {
 a:hover{
 color:#e3c08d;
 }
+@@media print {
+  .screen-only{
+    display:none;
+  }
+}
