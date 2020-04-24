@@ -96,8 +96,29 @@ h2::after {
 a:hover{
 color:#e3c08d;
 }
-@@media print {
+body{
+  background-color: #f1d2fa;
+}
+@media print {
   .screen-only{
     display:none;
+
   }
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container > div
+{
+  background-color: #d1739a;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  border: 15px solid #62bfbe;
+}
+form{
+  align-items: center;
 }
