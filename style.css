@@ -76,7 +76,7 @@ ul{
   color:hotpink;
   font-size: 20px;
 }
-input[type="text"]{
+input{
   background-color:orange;
 }
 button{
@@ -97,7 +97,7 @@ a:hover{
 color:#e3c08d;
 }
 body{
-  background-color: #f1d2fa;
+  background-color:#c4f5d8;
 }
 @media print {
   .screen-only{
